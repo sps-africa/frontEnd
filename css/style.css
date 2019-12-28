@@ -26,12 +26,17 @@
    ________________________________ */
 
 
-   header{
+   header#Home{
        width: 100%;
        height: 1000px;
        background-image: url("../images/cover.jpg");
        background-repeat: no-repeat;
    }
+
+
+
+
+
 
 
    /*  ________________________
@@ -40,3 +45,18 @@
    ________________________________ */
 
 
+   nav#MainNav{
+    background-color:transparent;
+    border-color:transparent;
+    top: 30px;
+   }
+
+
+   nav#MainNav .navbar-brand span.subhead{
+    color: black;   
+   }
+
+
+   nav#MainNav .navbar-nav>li>a{
+    color: black;
+   }
