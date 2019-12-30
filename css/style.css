@@ -75,7 +75,7 @@
  
   
   .searcher{
-  
+    position: relative;
     float:none;
     text-align: center;
     margin: 0px auto 0px auto;
@@ -83,15 +83,27 @@
   }
 
 
-  .searcher form .input-group{
-
-
+  .searcher form .input-group input{
+    text-align: center;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
   }
   
   .input-group-addon {    
       background-color:#fb5a43 !important;
       border: 1px solid #fb5a43;
       border-radius: 25px;
+  }
+
+
+
+  .searcher h2{
+    margin-top: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    font-size: 34pt;
   }
   
   
