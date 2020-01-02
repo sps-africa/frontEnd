@@ -1,0 +1,163 @@
+/* Table of Contents
+  ________________________
+  - Fonts
+  - Header
+  - Menu
+  - Categories
+  - Footer
+  - Mobile
+  
+  ________________________________ */
+
+
+  /*  ________________________
+ 
+     Fonts
+   ________________________________ */
+
+   @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
+
+   @import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&display=swap');
+ 
+   body {
+     font-family: 'Montserrat', sans-serif;
+ }
+   /*  ________________________
+  
+      Header
+    ________________________________ */
+ 
+ 
+    header#Home{
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        background-repeat: no-repeat;
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    /*  ________________________
+  
+      Menu
+    ________________________________ */
+ 
+ 
+    nav#MainNav{
+     background-color:transparent;
+     border-color:transparent;
+     top: 30px;
+    }
+ 
+ 
+    nav#MainNav .navbar-brand span.subhead{
+     color:#ffffff;
+     font-weight: 800;
+     font-size: 18pt;
+    }
+ 
+ 
+    nav#MainNav .navbar-nav>li>a{
+     color: #ffffff;
+     font-weight: 400;
+     
+    }
+ 
+ 
+    /*  ________________________
+  
+      Search button
+    ________________________________ */
+  
+   
+     
+   
+   
+  /*  ________________________
+  
+      Categories
+    ________________________________ */
+  
+     
+
+
+
+
+
+    
+ 
+          /*  ________________________
+  
+      Footer
+    ________________________________ */
+ 
+         footer{
+           background-color:#e1e8ea;
+           height:250px;
+           margin-top:50px;
+           
+         }
+         .footWords{
+          margin:0px auto 0px auto;
+          margin-top:15px;
+         }
+ 
+         .footWords ul{
+             padding: 0px;
+         }
+ 
+         .footWords ul li{
+            list-style-type: none;
+         }
+ 
+         .footWords a{
+         display:inline-block;
+         color:black;
+         font-size:12pt;
+         font-weight:400;
+         margin-top:5px;
+         }
+         
+         .footWords a#sell{
+         color: #FFFFFF;
+         width:120px;
+         line-height:5px;
+         padding:13px 16px;
+         text-transform: uppercase;
+         font-size: 12px;
+         border-radius: 50px;
+         -webkit-border-radius: 100px;
+         -moz-border-radius: 100px;
+         margin-left: 7px;
+         border:2px solid #FFFFFF;
+         background-color:#fb5a43;
+         }
+         
+         .col-centered{
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         text-align: center;
+         float :none;
+         }
+         .socialBox{
+         margin:0px auto 0px auto;
+         }
+        
+         .copyright{
+         text-align:center;
+         margin-top:50px;
+         margin-right:0px !important;
+         margin-left:0px !important;
+         }
+         .copyright p{
+         text-align:center;
+         color:#df4142;
+         }
+         
