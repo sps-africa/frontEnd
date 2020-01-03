@@ -280,4 +280,26 @@
         text-align:center;
         color:#df4142;
         }
+
+
+
+
+        /*Phone  Responsive  */
+
+@media  only screen and (max-width: 480px){
+
+
+  header#Home {
+     height:424px;
+  }
+
+
+  .searcher h2 {
+    font-weight: 400;
+    font-size: 21pt;
+  }
+
+
+
+}
         
