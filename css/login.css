@@ -136,6 +136,11 @@
      }
 
 
+     .history p{
+       line-height: 30px;
+     }
+
+
 
 
 
@@ -210,6 +215,22 @@
       }
 
 
+
+
+    /*  ________________________
+ 
+     About Us
+   ________________________________ */
+
+
+
+
+
+
+   .upperBorder{
+      width: 100px;
+      border-top: 5px solid #1ecde2;
+   }
 
 
  
