@@ -86,8 +86,12 @@
   
     .signInfo{
         text-align:center;
-        
+        margin: 0px auto;
+        margin-bottom: 100px;
+        float: none;
         }
+        
+       
         
         .signInfo form{
         margin-top:50px;
@@ -108,13 +112,8 @@
             -webkit-border-radius:50px;
             -moz-border-radius:50px;
             border:2px solid #FFFFFF;
-            background-color:#ff6047;
-            background-image: -ms-linear-gradient(right, #FF6047 0%, #D11819 100%);
-            background-image: -moz-linear-gradient(right, #FF6047 0%, #D11819 100%);
-            background-image: -o-linear-gradient(right, #FF6047 0%, #D11819 100%);
-            background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #FF6047), color-stop(100, #D11819));
-            background-image: -webkit-linear-gradient(right, #FF6047 0%, #D11819 100%);
-            background-image: linear-gradient(to left, #FF6047 0%, #D11819 100%);
+            background-color:#1ecde2;
+            
             }
 
 
