@@ -233,6 +233,11 @@
    }
 
 
+   .catImage img{
+
+   }
+
+
  
           /*  ________________________
   
@@ -309,3 +314,30 @@
          color:#df4142;
          }
          
+
+         
+        /*Phone  Responsive  */
+
+@media  only screen and (max-width: 480px){
+
+
+  ul.nav.navbar-nav.navbar-right {
+    z-index: 234;
+    background-color: black;
+}
+
+  .catBox{
+
+    margin-right: 0px;
+  }
+  .catImage {
+    
+    padding: 0px;
+  }
+
+.catImage img{
+  width: 250px;
+}
+
+
+}
